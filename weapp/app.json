@@ -1,13 +1,29 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/logs/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
         "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
     },
-    "component": true,
-    "usingComponents": {}
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "找房"
+            },
+            {
+                "pagePath": "pages/logs/index",
+                "text": "发布房源"
+            },
+            {
+                "pagePath": "pages/logs/index",
+                "text": "我的"
+            }
+        ]
+    }
 }

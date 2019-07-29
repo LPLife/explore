@@ -1,6 +1,6 @@
 "use strict";
 
-var _core = _interopRequireDefault(require('../vendor.js')(1));
+var _core = _interopRequireDefault(require('../vendor.js')(0));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -10,56 +10,5 @@ _core["default"].component({
     grouplist: {},
     index: {}
   },
-  methods: {
-    tap: function tap() {
-      this.grouplist.name = "Parent Random(".concat(Math.random(), ")");
-      var groups = this.$parent.$children.filter(function (com) {
-        return com.$is === 'components/group';
-      });
-      var index = groups.indexOf(this);
-      console.log("Clicked Group ".concat(index, ", ID is ").concat(this.grouplist.id));
-    }
-  }
-}, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event)
-      })();
-    
-  }}}, models: {} }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event)
-      })();
-    
-  }}}, models: {} }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event)
-      })();
-    
-  }}}, models: {} }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event)
-      })();
-    
-  }}}, models: {} }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event)
-      })();
-    
-  }}}, models: {} }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'12-0': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.tap($event)
-      })();
-    
-  }}}, models: {} });
+  methods: {}
+}, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {}, models: {} }, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {}, models: {} });

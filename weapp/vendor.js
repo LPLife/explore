@@ -1,7 +1,7 @@
 
-var windows = {};
+var window = { Number, Array, Date, Error, Function, Math, Object, Function, RegExp, String, TypeError, parseInt, parseFloat };
+var global = window;
 var process = { env: {} };
-var global = {};
 (function(modules) {
    // The module cache
    var installedModules = {};
@@ -34,48 +34,7 @@ var global = {};
    return __wepy_require;
 })([
 /***** module 0 start *****/
-/***** G:\微信小程序\myproject\node_modules\regenerator-runtime\runtime-module.js *****/
-function(module, exports, __wepy_require) {/**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-// This method of obtaining a reference to the global object needs to be
-// kept identical to the way it is obtained in runtime.js
-var g = (function() { return this })() || Function("return this")();
-
-// Use `getOwnPropertyNames` because not all browsers support calling
-// `hasOwnProperty` on the global `self` object in a worker. See #183.
-var hadRuntime = g.regeneratorRuntime &&
-  Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
-
-// Save the old regeneratorRuntime in case it needs to be restored later.
-var oldRuntime = hadRuntime && g.regeneratorRuntime;
-
-// Force reevalutation of runtime.js.
-g.regeneratorRuntime = undefined;
-
-module.exports = __wepy_require(3);
-
-if (hadRuntime) {
-  // Restore the original runtime.
-  g.regeneratorRuntime = oldRuntime;
-} else {
-  // Remove the global property added by runtime.js.
-  try {
-    delete g.regeneratorRuntime;
-  } catch(e) {
-    g.regeneratorRuntime = undefined;
-  }
-}
-
-},/***** module 0 end *****/
-
-
-/***** module 1 start *****/
-/***** G:\微信小程序\myproject\node_modules\@wepy\core\dist\wepy.js *****/
+/***** D:\微信小程序\explore\node_modules\@wepy\core\dist\wepy.js *****/
 function(module, exports, __wepy_require) {'use strict';
 
 // can we use __proto__?
@@ -2524,64 +2483,11 @@ Object.assign(wepy, {
 
 module.exports = wepy;
 
-},/***** module 1 end *****/
+},/***** module 0 end *****/
 
 
-/***** module 2 start *****/
-/***** G:\微信小程序\myproject\node_modules\@wepy\x\dist\index.js *****/
-function(module, exports, __wepy_require) {'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-var vuex = __wepy_require(4);
-
-function wepyInstall (wepy) {
-  vuex.install(wepy);
-
-  wepy.mixin({
-    created: function () {
-      var this$1 = this;
-
-      var computed = this.$options.computed;
-      var loop = function ( k ) {
-        if (computed[k].vuex) {
-          this$1.$watch(k, function () {
-            this._computedWatchers[k].evaluate();
-          }, { deep: true });
-        }
-      };
-
-      for (var k in computed) loop( k );
-    }
-  });
-}
-
-var index = {
-  Store: vuex.Store,
-  install: wepyInstall,
-  version: vuex.version,
-  mapState: vuex.mapState,
-  mapMutations: vuex.mapMutations,
-  mapGetters: vuex.mapGetters,
-  mapActions: vuex.mapActions,
-  createNamespacedHelpers: vuex.createNamespacedHelpers
-};
-
-exports.Store = vuex.Store;
-exports.version = vuex.version;
-exports.mapState = vuex.mapState;
-exports.mapMutations = vuex.mapMutations;
-exports.mapGetters = vuex.mapGetters;
-exports.mapActions = vuex.mapActions;
-exports.createNamespacedHelpers = vuex.createNamespacedHelpers;
-exports.default = index;
-exports.install = wepyInstall;
-
-},/***** module 2 end *****/
-
-
-/***** module 3 start *****/
-/***** G:\微信小程序\myproject\node_modules\regenerator-runtime\runtime.js *****/
+/***** module 1 start *****/
+/***** D:\微信小程序\explore\node_modules\regenerator-runtime\runtime.js *****/
 function(module, exports, __wepy_require) {/**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -3310,11 +3216,52 @@ function(module, exports, __wepy_require) {/**
   (function() { return this })() || Function("return this")()
 );
 
-},/***** module 3 end *****/
+},/***** module 1 end *****/
 
 
-/***** module 4 start *****/
-/***** G:\微信小程序\myproject\node_modules\vuex\dist\vuex.common.js *****/
+/***** module 2 start *****/
+/***** D:\微信小程序\explore\node_modules\regenerator-runtime\runtime-module.js *****/
+function(module, exports, __wepy_require) {/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+// This method of obtaining a reference to the global object needs to be
+// kept identical to the way it is obtained in runtime.js
+var g = (function() { return this })() || Function("return this")();
+
+// Use `getOwnPropertyNames` because not all browsers support calling
+// `hasOwnProperty` on the global `self` object in a worker. See #183.
+var hadRuntime = g.regeneratorRuntime &&
+  Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
+
+// Save the old regeneratorRuntime in case it needs to be restored later.
+var oldRuntime = hadRuntime && g.regeneratorRuntime;
+
+// Force reevalutation of runtime.js.
+g.regeneratorRuntime = undefined;
+
+module.exports = __wepy_require(1);
+
+if (hadRuntime) {
+  // Restore the original runtime.
+  g.regeneratorRuntime = oldRuntime;
+} else {
+  // Remove the global property added by runtime.js.
+  try {
+    delete g.regeneratorRuntime;
+  } catch(e) {
+    g.regeneratorRuntime = undefined;
+  }
+}
+
+},/***** module 2 end *****/
+
+
+/***** module 3 start *****/
+/***** D:\微信小程序\explore\node_modules\vuex\dist\vuex.common.js *****/
 function(module, exports, __wepy_require) {/**
  * vuex v3.1.1
  * (c) 2019 Evan You
@@ -4326,6 +4273,59 @@ var index = {
 };
 
 module.exports = index;
+
+},/***** module 3 end *****/
+
+
+/***** module 4 start *****/
+/***** D:\微信小程序\explore\node_modules\@wepy\x\dist\index.js *****/
+function(module, exports, __wepy_require) {'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var vuex = __wepy_require(3);
+
+function wepyInstall (wepy) {
+  vuex.install(wepy);
+
+  wepy.mixin({
+    created: function () {
+      var this$1 = this;
+
+      var computed = this.$options.computed;
+      var loop = function ( k ) {
+        if (computed[k].vuex) {
+          this$1.$watch(k, function () {
+            this._computedWatchers[k].evaluate();
+          }, { deep: true });
+        }
+      };
+
+      for (var k in computed) loop( k );
+    }
+  });
+}
+
+var index = {
+  Store: vuex.Store,
+  install: wepyInstall,
+  version: vuex.version,
+  mapState: vuex.mapState,
+  mapMutations: vuex.mapMutations,
+  mapGetters: vuex.mapGetters,
+  mapActions: vuex.mapActions,
+  createNamespacedHelpers: vuex.createNamespacedHelpers
+};
+
+exports.Store = vuex.Store;
+exports.version = vuex.version;
+exports.mapState = vuex.mapState;
+exports.mapMutations = vuex.mapMutations;
+exports.mapGetters = vuex.mapGetters;
+exports.mapActions = vuex.mapActions;
+exports.createNamespacedHelpers = vuex.createNamespacedHelpers;
+exports.default = index;
+exports.install = wepyInstall;
 
 }/***** module 4 end *****/
 

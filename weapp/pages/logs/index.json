@@ -1,0 +1,13 @@
+{
+    "navigationBarTitleText": "测试demo",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "component": true,
+    "usingComponents": {
+        "list": "../../components/wepy-list",
+        "group": "../../components/group",
+        "panel": "../../components/panel",
+        "counter": "../../components/counter",
+        "slide-view": "../../$vendor/miniprogram-slide-view/miniprogram_dist/index"
+    }
+}
