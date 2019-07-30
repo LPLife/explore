@@ -1,10 +1,10 @@
 "use strict";
 
-var _core = _interopRequireDefault(require('../vendor.js')(1));
+var _core = _interopRequireDefault(require('../vendor.js')(0));
 
 var _store = _interopRequireDefault(require('../store/index.js'));
 
-var _x = require('../vendor.js')(2);
+var _x = require('../vendor.js')(4);
 
 var _this = void 0;
 
@@ -53,6 +53,1826 @@ _core["default"].component({
     }
   })
 }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'14-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'14-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'14-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'14-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'14-0': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {

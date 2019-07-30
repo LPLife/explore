@@ -18,14 +18,7 @@ module.exports.getTime = getTime;
     {{msg}}
      <button @click="handleClick">确定</button>
          {{str}}
-   
-      <div v-if="m==0">
-      uyiyu
-      </div>
-      <div v-for="(item, index) in items" :key="index">
-         {{item}}
-      </div>
-      <group></group>
+         uyiyu
   </div>
 </template>
 
@@ -50,10 +43,7 @@ module.exports.getTime = getTime;
       inputmodel: 'v-model',
       mynum: 20,
       msg:'',
-      m:1,
-      items:[
-        'a','b','c'
-      ]
+      str:'fdg'
     },
    mounted() {
      wx.getLocation({

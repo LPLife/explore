@@ -24,8 +24,7 @@ _core["default"].page({
     inputmodel: 'v-model',
     mynum: 20,
     msg: '',
-    m: 1,
-    items: ['a', 'b', 'c']
+    str: 'fdg'
   },
   mounted: function mounted() {
     wx.getLocation({
@@ -46,7 +45,7 @@ _core["default"].page({
       console.log('hello');
     }
   }
-}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'7-37': {"tap": function proxy () {
+}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'16-19': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {

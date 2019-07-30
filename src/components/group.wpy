@@ -3,13 +3,7 @@
 </style>
 <template>
   <div class="group">
-    <span class="id">{{grouplist.id}}. </span>
-    <span class="name" @tap="tap">{{grouplist.name}}</span>
-    <div>
-      <div v-for="item in grouplist.list">
-        <groupitem :gitem="item"></groupitem>
-      </div>
-    </div>
+   6786786
   </div>
 </template>
 <script>
@@ -23,12 +17,7 @@
     },
 
     methods: {
-      tap () {
-        this.grouplist.name = `Parent Random(${Math.random()})`
-        let groups = this.$parent.$children.filter(com => com.$is === 'components/group');
-        let index = groups.indexOf(this);
-        console.log(`Clicked Group ${index}, ID is ${this.grouplist.id}`)
-      }
+
     }
   });
 </script>

@@ -18,14 +18,7 @@ module.exports.getTime = getTime;
 
   <view class="container">
     {{msg}}
-     <button data-wpy-evt="7-37" bindtap="_proxy">确定</button>
+     <button data-wpy-evt="16-19" bindtap="_proxy">确定</button>
          {{str}}
-   
-      <view wx:if="{{ m==0 }}">
-      uyiyu
-      </view>
-      <view wx:for="{{ items }}" wx:for-index="index" wx:for-item="item" wx:key="index" key="{{ index }}">
-         {{item}}
-      </view>
-      <group bind_init="_initComponent"></group>
+         uyiyu
   </view>
