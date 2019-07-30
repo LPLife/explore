@@ -90,7 +90,7 @@ console.log(longitude)
 // 编译后会被解析为当前页面的配置文件index.json
 <config>
 {
-    navigationBarTitleText: "发布房源",
+    navigationBarTitleText: "找房",
     backgroundColor: "#eeeeee",
     backgroundTextStyle: "light",
     usingComponents: {

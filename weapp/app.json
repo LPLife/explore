@@ -36,7 +36,5 @@
                 "iconPath": "static/image/icon_user_u.png"
             }
         ]
-    },
-    "component": true,
-    "usingComponents": {}
+    }
 }

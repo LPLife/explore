@@ -1,6 +1,6 @@
 
 <view class="wepy-list">
     <view>
-        <button size="mini" data-wpy-evt="12-3" bindtap="_proxy">添加列表another</button>
+        <button size="mini" data-wpy-evt="14-0" bindtap="_proxy">添加列表another</button>
     </view>
 </view>
