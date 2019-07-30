@@ -1,1 +1,15 @@
+.swiperList {
+  width: 100%;
+}
+.location {
+  font-size: 28rpx;
+  display: flex;
+  padding: 0 20rpx;
+}
+.location .tip {
+  color: #16f2e7;
+}
+.location .operation {
+  color: #ccc;
+}
 

@@ -11,11 +11,6 @@
         <div>
             <button @tap="add" size="mini">添加列表another</button>
         </div>
-        <div v-for="(item, index) in list">
-            <div @tap="tap" class="mylist">
-              <span>{{item.id}}</span>: {{item.title}}  <span @tap="remove(index)"> X </span>
-            </div>
-        </div>
     </div>
 </template>
 <script>

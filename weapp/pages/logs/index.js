@@ -1,10 +1,10 @@
 "use strict";
 
-var _core = _interopRequireDefault(require('../../vendor.js')(0));
+var _core = _interopRequireDefault(require('../../vendor.js')(1));
 
 var _eventHub = _interopRequireDefault(require('../../common/eventHub.js'));
 
-var _x = require('../../vendor.js')(4);
+var _x = require('../../vendor.js')(2);
 
 var _index = _interopRequireDefault(require('../../store/index.js'));
 
@@ -45,7 +45,7 @@ _core["default"].page({
       console.log('hello');
     }
   }
-}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'16-19': {"tap": function proxy () {
+}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'8-55': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {

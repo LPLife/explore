@@ -1,0 +1,51 @@
+<style type="less">
+.groupitem {
+  padding: 0 20rpx;
+  background-color: #eee;
+}
+.slide-image {  
+  display: block;
+  width: 100%;
+}
+</style>
+<template>
+  <div class="groupitem">
+      <swiper indicator-dots="{{indicatorDots}}" circular={{circular}} indicatorActiveColor="{{indicatorActiveColor}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicatorColor="{{indicatorColor}}" easingFunction="{{easingFunction}}">
+        <div v-for="(item, index) in imgUrls" :key="index">
+          <swiper-item>
+            <img src="{{item}}" class="slide-image"/>
+          </swiper-item>
+        </div>
+      </swiper>
+  </div>
+</template>
+<script>
+  import wepy from '@wepy/core';
+  wepy.component({
+    props: {
+      gitem: {}
+    },
+    data: {
+		imgUrls: [
+		'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
+		'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
+		'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
+		],
+		indicatorDots: true, //是否显示面试指示点
+    autoplay: true,//是否自动播放
+    circular:true, //是否使用衔接滑动（滑动到最后一张，循环从头开始）
+    indicatorColor:'rgba(255,255,255,0.4)', // 指示点的颜色
+		interval: 5000, //自动切换时间间隔
+    duration: 1000, //滑动动画时长,
+    indicatorActiveColor:'#16f2e7'
+    },
+    methods: {
+      tap () {
+        this.gitem.childname = `Child Random(${Math.random()})`
+        let index = this.$parent.$children.indexOf(this);
+        console.log(`Item ${index}, ID is ${this.gitem.childid}`)
+      }
+    }
+  });
+</script>

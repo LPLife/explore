@@ -1,0 +1,83 @@
+<style lang="less">
+// 该部分编译后会被解析为index.wxss文件
+</style>
+<wxs module="m1" lang="babel">
+const getTime = (time) => {
+  let date = getDate(time);
+  let hour = date.getHours();
+  let mins = date.getMinutes();
+  let sec = date.getSeconds();
+  let milli = date.getMilliseconds();
+  return `${hour}:${mins}:${sec}.${milli}`;
+}
+module.exports.getTime = getTime;
+</wxs>
+<template>
+<!-- 该部分编译后会被解析为index.wxml文件 -->
+  <div class="container">
+    {{msg}}
+     <button @click="handleClick">确定</button>
+      用户
+  </div>
+</template>
+
+<script>
+   //该部分编译后会被解析为index.js文件
+  import wepy from '@wepy/core'
+  import eventHub from '../../common/eventHub';
+  import { mapState } from '@wepy/x';
+  import store from '../../store/index';
+  import testMixin from '../../mixins/test';
+  wepy.page({
+    store,
+    config: {
+      navigationBarTitleText: 'test',
+    },
+
+    hooks: {
+    },
+    mixins: [testMixin],
+
+    data: {
+      inputmodel: 'v-model',
+      mynum: 20,
+      msg:'',
+      str:'fdg'
+    },
+   mounted() {
+     wx.getLocation({
+  type: 'wgs84',
+  success: (res) => {
+    var latitude = res.latitude // 纬度
+    var longitude = res.longitude // 经度
+  }
+})
+console.log(latitude);
+console.log(longitude)
+   },
+    computed: {
+    },
+    methods: {
+      handleClick(){
+        this.msg = 'hello';
+        console.log('hello');
+              }
+  }
+  });
+</script>
+// 编译后会被解析为当前页面的配置文件index.json
+<config>
+{
+    navigationBarTitleText: "我的",
+    backgroundColor: "#eeeeee",
+    backgroundTextStyle: "light",
+    usingComponents: {
+    panel: '~@/components/panel',
+    counter: '~counter',
+    list: '../../components/list',
+    group: '../../components/group',
+    "slide-view": "module:miniprogram-slide-view",
+  },
+
+}
+</config>

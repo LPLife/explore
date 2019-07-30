@@ -17,8 +17,7 @@ module.exports.getTime = getTime;
   <div class="container">
     {{msg}}
      <button @click="handleClick">确定</button>
-         {{str}}
-         uyiyu
+      {{str}}
   </div>
 </template>
 
@@ -46,22 +45,13 @@ module.exports.getTime = getTime;
       str:'fdg'
     },
    mounted() {
-     wx.getLocation({
-  type: 'wgs84',
-  success: (res) => {
-    var latitude = res.latitude // 纬度
-    var longitude = res.longitude // 经度
-  }
-})
-console.log(latitude);
-console.log(longitude)
+
    },
     computed: {
     },
     methods: {
       handleClick(){
         this.msg = 'hello';
-        console.log('hello');
               }
   }
   });
@@ -69,7 +59,7 @@ console.log(longitude)
 // 编译后会被解析为当前页面的配置文件index.json
 <config>
 {
-    navigationBarTitleText: "测试demo",
+    navigationBarTitleText: "发布房源",
     backgroundColor: "#eeeeee",
     backgroundTextStyle: "light",
     usingComponents: {

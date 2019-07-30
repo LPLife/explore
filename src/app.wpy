@@ -1,12 +1,15 @@
 <style lang="less">
 .container {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  margin: 0;
 }
+
 </style>
 
 <script>
@@ -59,7 +62,8 @@ wepy.app({
 {
     pages: [
       'pages/index/index',
-      'pages/logs/index'
+      'pages/publish/index',
+      'pages/user/index',
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -69,17 +73,28 @@ wepy.app({
       enablePullDownRefresh:true
     },
      "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "找房"
-    },
-    {
-      "pagePath": "pages/logs/index",
-      "text": "发布房源"
-    }, {
-      "pagePath": "pages/logs/index",
-      "text": "我的"
-    }]
+      "color": "#dddddd",
+      "selectedColor": "#16f2e7",
+      "backgroundColor": "#fff",
+       borderStyle: 'black',
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "找房",
+        "iconPath": "static/image/icon_home_u.png",
+        "selectedIconPath":"static/image/icon_home_a.png"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "text": "发布房源",
+        "iconPath": "static/image/icon_release_u.png",
+        "selectedIconPath":"static/image/icon_release_a.png"
+      }, 
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "selectedIconPath":"static/image/icon_user_a.png",
+        "iconPath": "static/image/icon_user_u.png",
+      }]
   },
 }
 </config>

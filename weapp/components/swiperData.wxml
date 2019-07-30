@@ -1,0 +1,10 @@
+
+<view class="groupitem">
+    <swiper indicator-dots="{{indicatorDots}}" circular="{{circular}}" indicatorActiveColor="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicatorColor="{{indicatorColor}}" easingFunction="{{easingFunction}}">
+      <view wx:for="{{ imgUrls }}" wx:for-index="index" wx:for-item="item" wx:key="index" key="{{ index }}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"></image>
+        </swiper-item>
+      </view>
+    </swiper>
+</view>

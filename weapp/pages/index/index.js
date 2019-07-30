@@ -1,10 +1,10 @@
 "use strict";
 
-var _core = _interopRequireDefault(require('../../vendor.js')(0));
+var _core = _interopRequireDefault(require('../../vendor.js')(1));
 
 var _eventHub = _interopRequireDefault(require('../../common/eventHub.js'));
 
-var _x = require('../../vendor.js')(4);
+var _x = require('../../vendor.js')(2);
 
 var _index = _interopRequireDefault(require('../../store/index.js'));
 
@@ -24,8 +24,7 @@ _core["default"].page({
     inputmodel: 'v-model',
     mynum: 20,
     msg: '',
-    m: 1,
-    items: ['a', 'b', 'c']
+    str: 'fdg'
   },
   mounted: function mounted() {
     wx.getLocation({
@@ -43,10 +42,9 @@ _core["default"].page({
   methods: {
     handleClick: function handleClick() {
       this.msg = 'hello';
-      console.log('hello');
     }
   }
-}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'7-37': {"tap": function proxy () {
+}, {info: {"components":{"swiperData":{"path":"..\\..\\components\\swiperData"},"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'7-286': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {

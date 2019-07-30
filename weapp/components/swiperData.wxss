@@ -1,0 +1,10 @@
+                   
+.groupitem {
+  padding: 0 20rpx;
+  background-color: #eee;
+}
+.slide-image {  
+  display: block;
+  width: 100%;
+}
+

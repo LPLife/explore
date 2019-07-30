@@ -1,9 +1,10 @@
 {
-    "navigationBarTitleText": "测试demo",
+    "navigationBarTitleText": "发布房源",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "component": true,
     "usingComponents": {
+        "swiperData": "../../components/swiperData",
         "list": "../../components/wepy-list",
         "group": "../../components/group",
         "panel": "../../components/panel",
