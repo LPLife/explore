@@ -1,42 +1,43 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/publish/index",
-        "pages/user/index"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black",
-        "enablePullDownRefresh": true
-    },
-    "tabBar": {
-        "color": "#dddddd",
-        "selectedColor": "#16f2e7",
-        "backgroundColor": "#fff",
-        "borderStyle": "black",
-        "list": [
-            {
-                "pagePath": "pages/index/index",
-                "text": "找房",
-                "iconPath": "static/image/icon_home_u.png",
-                "selectedIconPath": "static/image/icon_home_a.png"
-            },
-            {
-                "pagePath": "pages/publish/index",
-                "text": "发布房源",
-                "iconPath": "static/image/icon_release_u.png",
-                "selectedIconPath": "static/image/icon_release_a.png"
-            },
-            {
-                "pagePath": "pages/user/index",
-                "text": "我的",
-                "selectedIconPath": "static/image/icon_user_a.png",
-                "iconPath": "static/image/icon_user_u.png"
-            }
-        ]
-    },
-    "component": true,
-    "usingComponents": {}
+  "pages": [
+    "pages/index/index",
+    "pages/publish/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#16f2e7",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "找房",
+        "iconPath": "static/image/icon_home_u.png",
+        "selectedIconPath": "static/image/icon_home_a.png"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "text": "发布房源",
+        "iconPath": "static/image/icon_release_u.png",
+        "selectedIconPath": "static/image/icon_release_a.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "selectedIconPath": "static/image/icon_user_a.png",
+        "iconPath": "static/image/icon_user_u.png"
+      }
+    ]
+  },
+  "component": true,
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }
