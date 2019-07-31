@@ -1,7 +1,7 @@
                    
 .groupitem {
   padding: 0 20rpx;
-  background-color: #eee;
+  background: rgb(240, 240, 248);
 }
 .slide-image {  
   display: block;

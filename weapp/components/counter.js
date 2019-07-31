@@ -157,4 +157,214 @@ _core["default"].component({
         _vm.incrementAsync($event)
       })();
     
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'17-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'17-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'17-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'17-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'17-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'17-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'17-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'17-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'17-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'17-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'17-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'17-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'17-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'17-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'17-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'17-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'17-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'17-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'17-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'17-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'17-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'17-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'17-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'17-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'17-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
+  }}}, models: {} }, {info: {"components":{},"on":{}}, handlers: {'17-0': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.plus($event)
+      })();
+    
+  }},'17-1': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.minus($event)
+      })();
+    
+  }},'17-2': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.increment($event)
+      })();
+    
+  }},'17-3': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.decrement($event)
+      })();
+    
+  }},'17-4': {"tap": function proxy () {
+    var $event = arguments[arguments.length - 1];
+    var _vm=this;
+      return (function () {
+        _vm.incrementAsync($event)
+      })();
+    
   }}}, models: {} });

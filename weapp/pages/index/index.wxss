@@ -2,14 +2,43 @@
   width: 100%;
 }
 .location {
-  font-size: 28rpx;
+  font-size: 32rpx;
   display: flex;
-  padding: 0 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  height: 80rpx;
+  line-height: 80rpx;
 }
 .location .tip {
+  padding: 0 20rpx;
+  width: 50%;
   color: #16f2e7;
 }
 .location .operation {
+  flex: 1;
+  color: #cccccc;
+  padding: 0 20rpx;
+  display: flex;
+}
+.location .operation .address-icon {
+  position: absolute;
+  right: 160rpx;
+}
+.location .operation .address-icon .address {
+  width: 48rpx;
+  height: 48rpx;
+  vertical-align: middle;
+}
+.location .operation .village {
+  position: absolute;
+  right: 20rpx;
+  font-size: 32rpx;
   color: #ccc;
+}
+.location .operation .village .down_icon {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
 }
 

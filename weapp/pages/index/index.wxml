@@ -23,9 +23,12 @@ module.exports.getTime = getTime;
            房东直租
          </view>
          <view class="operation">
-           选择村
+            <view class="address-icon">
+              <image src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/address.png" alt="" class="address">
+           </image></view>
+          <view class="village">选择村 <image src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/up.png" alt="" srcset="" class="down_icon"></image></view>
          </view>
     </view>
     {{msg}}
-     <button data-wpy-evt="7-0" bindtap="_proxy">确定</button>
+     <button data-wpy-evt="7-2" bindtap="_proxy">确定</button>
   </view>

@@ -18,6 +18,6 @@ module.exports.getTime = getTime;
 
   <view class="container">
     {{msg}}
-     <button data-wpy-evt="9-0" bindtap="_proxy">确定</button>
+     <button data-wpy-evt="9-2" bindtap="_proxy">确定</button>
       用户
   </view>

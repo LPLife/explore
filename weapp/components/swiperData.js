@@ -9,7 +9,7 @@ _core["default"].component({
     gitem: {}
   },
   data: {
-    imgUrls: ['https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640', 'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640', 'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'],
+    imgUrls: ['https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/banner_1.jpg', 'https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/banner_2.jpg', 'https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/banner_3.jpg'],
     indicatorDots: true,
     //是否显示面试指示点
     autoplay: true,
@@ -25,4 +25,4 @@ _core["default"].component({
     indicatorActiveColor: '#16f2e7'
   },
   methods: {}
-}, {info: {"components":{},"on":{}}, handlers: {}, models: {} });
+}, {info: {"components":{},"on":{}}, handlers: {}, models: {} }, {info: {"components":{},"on":{}}, handlers: {}, models: {} }, {info: {"components":{},"on":{}}, handlers: {}, models: {} });

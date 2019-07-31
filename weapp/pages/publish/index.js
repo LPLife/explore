@@ -33,7 +33,7 @@ _core["default"].page({
       this.msg = 'hello';
     }
   }
-}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'8-0': {"tap": function proxy () {
+}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'8-2': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {

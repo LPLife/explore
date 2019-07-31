@@ -80,4 +80,4 @@ _core["default"].app({
       return testAsync;
     }()
   }
-}, {a: 1});
+}, {a: 1}, {a: 1}, {a: 1});

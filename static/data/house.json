@@ -1,0 +1,104 @@
+{
+    "houseinfo": [
+        {
+            "type": "一房一厅",
+            "rent": "980元/月",
+            "floor": "4楼",
+            "distance": "1分钟内",
+            "address": "棠下",
+            "detail_address": "麦当劳附近",
+            "symbol_biulding": "麦当劳",
+            "comment": "24小时专人管理",
+            "lightport": "光线好、茶几、沙发、房大",
+            "infrastructure": "空调、热水器、冰箱",
+            "imglist": [
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_1.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_2.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_3.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_4.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_5.jpg"
+            ],
+            "landlord": {
+                "name": "甜豆",
+                "avatar": "头像",
+                "date": "2019-08-12",
+                "number": 99
+            }
+        },
+        {
+            "type": "一房一厅",
+            "rent": "980元/月",
+            "floor": "4楼",
+            "distance": "1分钟内",
+            "address": "棠下",
+            "detail_address": "麦当劳附近",
+            "symbol_biulding": "麦当劳",
+            "comment": "24小时专人管理",
+            "lightport": "光线好、茶几、沙发、房大",
+            "infrastructure": "空调、热水器、冰箱",
+            "imglist": [
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_1.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_2.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_3.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_4.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_5.jpg"
+            ],
+            "landlord": {
+                "name": "甜豆",
+                "avatar": "头像",
+                "date": "2019-08-12",
+                "number": 99
+            }
+        },
+        {
+            "type": "一房一厅",
+            "rent": "980元/月",
+            "floor": "4楼",
+            "distance": "1分钟内",
+            "address": "棠下",
+            "detail_address": "麦当劳附近",
+            "symbol_biulding": "麦当劳",
+            "comment": "24小时专人管理",
+            "lightport": "光线好、茶几、沙发、房大",
+            "infrastructure": "空调、热水器、冰箱",
+            "imglist": [
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_1.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_2.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_3.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_4.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_5.jpg"
+            ],
+            "landlord": {
+                "name": "甜豆",
+                "avatar": "头像",
+                "date": "2019-08-12",
+                "number": 99
+            }
+        },
+        {
+            "type": "一房一厅",
+            "rent": "980元/月",
+            "floor": "4楼",
+            "distance": "1分钟内",
+            "address": "棠下",
+            "detail_address": "麦当劳附近",
+            "symbol_biulding": "麦当劳",
+            "comment": "24小时专人管理",
+            "lightport": "光线好、茶几、沙发、房大",
+            "infrastructure": "空调、热水器、冰箱",
+            "imglist": [
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_1.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_2.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_3.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_4.jpg",
+                "https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/house_5.jpg"
+            ],
+            "landlord": {
+                "name": "甜豆",
+                "avatar": "头像",
+                "date": "2019-08-12",
+                "number": 99
+            }
+        }
+    ]
+}

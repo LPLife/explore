@@ -26,25 +26,14 @@ _core["default"].page({
     msg: '',
     str: 'fdg'
   },
-  mounted: function mounted() {
-    wx.getLocation({
-      type: 'wgs84',
-      success: function success(res) {
-        var latitude = res.latitude; // 纬度
-
-        var longitude = res.longitude; // 经度
-      }
-    });
-    console.log(latitude);
-    console.log(longitude);
-  },
+  mounted: function mounted() {},
   computed: {},
   methods: {
     handleClick: function handleClick() {
       this.msg = 'hello';
     }
   }
-}, {info: {"components":{"swiperData":{"path":"..\\..\\components\\swiperData"},"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'7-0': {"tap": function proxy () {
+}, {info: {"components":{"swiperData":{"path":"..\\..\\components\\swiperData"},"list":{"path":"..\\..\\components\\wepy-list"},"group":{"path":"..\\..\\components\\group"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'7-2': {"tap": function proxy () {
     var $event = arguments[arguments.length - 1];
     var _vm=this;
       return (function () {

@@ -1,18 +1,48 @@
 <style lang="less">
 // 该部分编译后会被解析为index.wxss文件
-.container {}
+.container {
+}
 .swiperList {
   width: 100%;
 }
 .location{
-  font-size: 28rpx;
+  font-size: 32rpx;
   display: flex;
-  padding: 0 20rpx;
+  width: 100%;
+  box-sizing:border-box;
+  background: #ffffff;
+  height: 80rpx;
+  line-height: 80rpx;
   .tip {
+    padding: 0 20rpx;
+    width: 50%;
     color: #16f2e7;
   }
   .operation {
-    color: #ccc;
+    flex: 1;
+    color: #cccccc;
+    padding: 0 20rpx;
+    display: flex;
+    .address-icon {
+      position: absolute;
+      right: 160rpx;
+      .address {
+        width: 48rpx;
+        height: 48rpx;
+        vertical-align: middle;
+      }
+    }
+    .village {
+      position: absolute;
+      right: 20rpx;
+      font-size: 32rpx;
+      color: #ccc;
+      .down_icon {
+        width: 32rpx;
+        height: 32rpx;
+        vertical-align: middle;
+      }
+    }
   }
 }
 </style>
@@ -36,7 +66,10 @@ module.exports.getTime = getTime;
            房东直租
          </div>
          <div class="operation">
-           选择村
+            <div class="address-icon">
+              <img class="address" src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/address.png" alt="">
+           </div>
+          <div class="village">选择村 <img class="down_icon" src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/up.png" alt="" srcset=""></div>
          </div>
     </div>
     {{msg}}
@@ -68,15 +101,7 @@ module.exports.getTime = getTime;
       str:'fdg'
     },
    mounted() {
-     wx.getLocation({
-  type: 'wgs84',
-  success: (res) => {
-    var latitude = res.latitude // 纬度
-    var longitude = res.longitude // 经度
-  }
-})
-console.log(latitude);
-console.log(longitude)
+
    },
     computed: {
     },
@@ -90,7 +115,7 @@ console.log(longitude)
 // 编译后会被解析为当前页面的配置文件index.json
 <config>
 {
-    navigationBarTitleText: "找房",
+    navigationBarTitleText: "村里租房",
     backgroundColor: "#eeeeee",
     backgroundTextStyle: "light",
     usingComponents: {
