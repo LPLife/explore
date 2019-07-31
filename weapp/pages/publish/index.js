@@ -1,10 +1,10 @@
 "use strict";
 
-var _core = _interopRequireDefault(require('../../vendor.js')(0));
+var _core = _interopRequireDefault(require('../../vendor.js')(1));
 
 var _eventHub = _interopRequireDefault(require('../../common/eventHub.js'));
 
-var _x = require('../../vendor.js')(1);
+var _x = require('../../vendor.js')(2);
 
 var _index = _interopRequireDefault(require('../../store/index.js'));
 

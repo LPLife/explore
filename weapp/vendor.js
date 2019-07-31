@@ -34,6 +34,47 @@ var global = {};
    return __wepy_require;
 })([
 /***** module 0 start *****/
+/***** G:\微信小程序\explore\node_modules\regenerator-runtime\runtime-module.js *****/
+function(module, exports, __wepy_require) {/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+// This method of obtaining a reference to the global object needs to be
+// kept identical to the way it is obtained in runtime.js
+var g = (function() { return this })() || Function("return this")();
+
+// Use `getOwnPropertyNames` because not all browsers support calling
+// `hasOwnProperty` on the global `self` object in a worker. See #183.
+var hadRuntime = g.regeneratorRuntime &&
+  Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
+
+// Save the old regeneratorRuntime in case it needs to be restored later.
+var oldRuntime = hadRuntime && g.regeneratorRuntime;
+
+// Force reevalutation of runtime.js.
+g.regeneratorRuntime = undefined;
+
+module.exports = __wepy_require(3);
+
+if (hadRuntime) {
+  // Restore the original runtime.
+  g.regeneratorRuntime = oldRuntime;
+} else {
+  // Remove the global property added by runtime.js.
+  try {
+    delete g.regeneratorRuntime;
+  } catch(e) {
+    g.regeneratorRuntime = undefined;
+  }
+}
+
+},/***** module 0 end *****/
+
+
+/***** module 1 start *****/
 /***** G:\微信小程序\explore\node_modules\@wepy\core\dist\wepy.js *****/
 function(module, exports, __wepy_require) {'use strict';
 
@@ -2483,10 +2524,10 @@ Object.assign(wepy, {
 
 module.exports = wepy;
 
-},/***** module 0 end *****/
+},/***** module 1 end *****/
 
 
-/***** module 1 start *****/
+/***** module 2 start *****/
 /***** G:\微信小程序\explore\node_modules\@wepy\x\dist\index.js *****/
 function(module, exports, __wepy_require) {'use strict';
 
@@ -2535,47 +2576,6 @@ exports.mapActions = vuex.mapActions;
 exports.createNamespacedHelpers = vuex.createNamespacedHelpers;
 exports.default = index;
 exports.install = wepyInstall;
-
-},/***** module 1 end *****/
-
-
-/***** module 2 start *****/
-/***** G:\微信小程序\explore\node_modules\regenerator-runtime\runtime-module.js *****/
-function(module, exports, __wepy_require) {/**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-// This method of obtaining a reference to the global object needs to be
-// kept identical to the way it is obtained in runtime.js
-var g = (function() { return this })() || Function("return this")();
-
-// Use `getOwnPropertyNames` because not all browsers support calling
-// `hasOwnProperty` on the global `self` object in a worker. See #183.
-var hadRuntime = g.regeneratorRuntime &&
-  Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
-
-// Save the old regeneratorRuntime in case it needs to be restored later.
-var oldRuntime = hadRuntime && g.regeneratorRuntime;
-
-// Force reevalutation of runtime.js.
-g.regeneratorRuntime = undefined;
-
-module.exports = __wepy_require(3);
-
-if (hadRuntime) {
-  // Restore the original runtime.
-  g.regeneratorRuntime = oldRuntime;
-} else {
-  // Remove the global property added by runtime.js.
-  try {
-    delete g.regeneratorRuntime;
-  } catch(e) {
-    g.regeneratorRuntime = undefined;
-  }
-}
 
 },/***** module 2 end *****/
 
