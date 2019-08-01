@@ -45,6 +45,9 @@
     }
   }
 }
+.info {
+	width: 100%;
+}
 </style>
 <wxs module="m1" lang="babel">
 const getTime = (time) => {
@@ -69,10 +72,10 @@ module.exports.getTime = getTime;
             <div class="address-icon">
               <img class="address" src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/address.png" alt="">
            </div>
-          <div class="village">选择村 <img class="down_icon" src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/up.png" alt="" srcset=""></div>
+           <div class="village">选择村 <img class="down_icon" src="https://raw.githubusercontent.com/LPLife/img/master/2019-7-31/up.png" alt="" srcset=""></div>
          </div>
     </div>
-    {{msg}}
+     <information class="info"></information>
      <button @click="handleClick">确定</button>
   </div>
 </template>
@@ -84,6 +87,7 @@ module.exports.getTime = getTime;
   import { mapState } from '@wepy/x';
   import store from '../../store/index';
   import testMixin from '../../mixins/test';
+  import {requestApi,ff} from '../../utils/util';
   wepy.page({
     store,
     config: {
@@ -101,7 +105,17 @@ module.exports.getTime = getTime;
       str:'fdg'
     },
    mounted() {
+     console.log(ff);
+    //  console.log('fg')
+	   let data = {
+		   url:'../../../static/data/house.json',
+		   method:'get'
+	   }
+       requestApi (...data).then((res)=>{
+            console.log(res);
+	   }).catch((err) =>{
 
+	   });
    },
     computed: {
     },
@@ -122,8 +136,9 @@ module.exports.getTime = getTime;
     panel: '~@/components/panel',
     counter: '~counter',
     list: '../../components/list',
-    swiperData:'../../components/swiperData.wpy',
+    swiperData:'../../components/swiperData',
     group: '../../components/group',
+    information:'../../components/information',
     "slide-view": "module:miniprogram-slide-view",
   },
 

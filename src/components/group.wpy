@@ -3,17 +3,13 @@
 </style>
 <template>
   <div class="group">
-   6786786
+     
   </div>
 </template>
 <script>
   import wepy from '@wepy/core';
-  //import GroupItem from './groupitem'
-
   wepy.component({
     props: {
-      grouplist: {},
-      index: {}
     },
 
     methods: {

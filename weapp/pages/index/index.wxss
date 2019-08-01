@@ -41,4 +41,7 @@
   height: 32rpx;
   vertical-align: middle;
 }
+.info {
+  width: 100%;
+}
 

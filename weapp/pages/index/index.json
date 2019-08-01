@@ -4,9 +4,10 @@
     "backgroundTextStyle": "light",
     "component": true,
     "usingComponents": {
-        "swiperData": "../../components/swiperData",
         "list": "../../components/wepy-list",
+        "swiperData": "../../components/swiperData",
         "group": "../../components/group",
+        "information": "../../components/information",
         "panel": "../../components/panel",
         "counter": "../../components/counter",
         "slide-view": "../../$vendor/miniprogram-slide-view/miniprogram_dist/index"

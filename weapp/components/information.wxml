@@ -1,0 +1,9 @@
+
+<view class="info-wrap">
+       <view class="column">
+          <view class="village">户型 <image src="https://raw.githubusercontent.com/LPLife/img/master/2019-8-1/down.png" alt="" srcset="" class="down_icon"></image></view>
+          <view class="village">价格 <image src="https://raw.githubusercontent.com/LPLife/img/master/2019-8-1/down.png" alt="" srcset="" class="down_icon"></image></view>
+          <view class="village">路边距离 <image src="https://raw.githubusercontent.com/LPLife/img/master/2019-8-1/down.png" alt="" srcset="" class="down_icon"></image></view>
+          <view class="village">更多 <image src="https://raw.githubusercontent.com/LPLife/img/master/2019-8-1/down.png" alt="" srcset="" class="down_icon"></image></view>
+       </view>
+</view>
