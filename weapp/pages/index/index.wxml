@@ -30,5 +30,5 @@ module.exports.getTime = getTime;
          </view>
     </view>
      <information bind_init="_initComponent" class="info"></information>
-     <button data-wpy-evt="7-1" bindtap="_proxy">确定</button>
+     
   </view>

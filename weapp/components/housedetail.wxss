@@ -1,0 +1,7 @@
+                   
+.groupitem {
+  height: 480rpx; 
+  margin-top: 32px;
+  background: #fff;
+}
+

@@ -1,10 +1,10 @@
 "use strict";
 
-var _core = _interopRequireDefault(require('../../vendor.js')(2));
+var _core = _interopRequireDefault(require('../../vendor.js')(1));
 
 var _eventHub = _interopRequireDefault(require('../../common/eventHub.js'));
 
-var _x = require('../../vendor.js')(1);
+var _x = require('../../vendor.js')(2);
 
 var _index = _interopRequireDefault(require('../../store/index.js'));
 
@@ -36,8 +36,6 @@ _core["default"].page({
     str: 'fdg'
   },
   mounted: function mounted() {
-    console.log(_util.ff); //  console.log('fg')
-
     var data = {
       url: '../../../static/data/house.json',
       method: 'get'
@@ -53,11 +51,4 @@ _core["default"].page({
       this.msg = 'hello';
     }
   }
-}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"swiperData":{"path":"..\\..\\components\\swiperData"},"group":{"path":"..\\..\\components\\group"},"information":{"path":"..\\..\\components\\information"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {'7-1': {"tap": function proxy () {
-    var $event = arguments[arguments.length - 1];
-    var _vm=this;
-      return (function () {
-        _vm.handleClick($event)
-      })();
-    
-  }}}, models: {} });
+}, {info: {"components":{"list":{"path":"..\\..\\components\\wepy-list"},"swiperData":{"path":"..\\..\\components\\swiperData"},"group":{"path":"..\\..\\components\\group"},"information":{"path":"..\\..\\components\\information"},"panel":{"path":"..\\..\\components\\panel"},"counter":{"path":"..\\..\\components\\counter"},"slide-view":{"path":"..\\..\\$vendor\\miniprogram-slide-view\\miniprogram_dist\\index"}},"on":{}}, handlers: {}, models: {} });

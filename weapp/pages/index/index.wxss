@@ -1,3 +1,9 @@
+view {
+  box-sizing: border-box;
+}
+.container {
+  background: #f0f0f8;
+}
 .swiperList {
   width: 100%;
 }
@@ -6,7 +12,7 @@
   display: flex;
   width: 100%;
   box-sizing: border-box;
-  background: #ffffff;
+  background: #fff;
   height: 80rpx;
   line-height: 80rpx;
 }

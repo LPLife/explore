@@ -1,6 +1,10 @@
 <style lang="less">
+view {
+  box-sizing: border-box;
+}
 // 该部分编译后会被解析为index.wxss文件
 .container {
+  background: rgb(240, 240, 248);
 }
 .swiperList {
   width: 100%;
@@ -10,7 +14,7 @@
   display: flex;
   width: 100%;
   box-sizing:border-box;
-  background: #ffffff;
+  background: #fff;
   height: 80rpx;
   line-height: 80rpx;
   .tip {
@@ -46,7 +50,7 @@
   }
 }
 .info {
-	width: 100%;
+  width: 100%;
 }
 </style>
 <wxs module="m1" lang="babel">
@@ -76,7 +80,7 @@ module.exports.getTime = getTime;
          </div>
     </div>
      <information class="info"></information>
-     <button @click="handleClick">确定</button>
+     <!-- <button @click="handleClick">确定</button> -->
   </div>
 </template>
 
@@ -105,8 +109,6 @@ module.exports.getTime = getTime;
       str:'fdg'
     },
    mounted() {
-     console.log(ff);
-    //  console.log('fg')
 	   let data = {
 		   url:'../../../static/data/house.json',
 		   method:'get'
